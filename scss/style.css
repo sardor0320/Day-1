@@ -1,1 +1,95 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #222831;
+}
+
+.navbar {
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.navbar__laft {
+  color: white;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin-top: -80px;
+  transform: translatex(-100px);
+}
+
+.navbar__right {
+  color: white;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.navbar__card {
+  margin-left: 100px;
+  margin-top: -200px;
+}
+
+.navbar__button button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: aqua;
+  margin-top: -350px;
+  transform: translatey(-40px);
+  margin-left: 200px;
+}
+
+.navbar__button--two button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(6, 28, 28);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  margin-top: -350px;
+  transform: translatey(-70px);
+  margin-left: 400px;
+}
+
+.navbar__img {
+  margin-left: 900px;
+  margin-top: -400px;
+}
+
+.navbar__img--two {
+  margin-top: -400px;
+  margin-left: 850px;
+}
+
+.about {
+  color: white;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 300px;
+}
+
+.about__left {
+  color: gray;
+  width: 300px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: -50px;
+}
+
+.about__right {
+  margin-left: 800px;
+  margin-top: -400px;
+}
+
+.about__top {
+  display: flex;
+  justify-content: end;
+  transform: translatex(-350px);
+  margin-top: -300px;
+}
+
+.about__button {
+  margin-top: -600px;
+  margin-left: 300px;
+}/*# sourceMappingURL=style.css.map */

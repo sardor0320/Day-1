@@ -1,0 +1,27 @@
+.about{
+    color: white;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+.about__left{
+    color: gray;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.about__right{
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.about__top{
+    display: flex;
+    justify-content: end;
+    transform: translatex(-350px);
+    margin-top: -300px;
+}
+.about__button{
+    margin-top: -600px;
+    margin-left: 300px;
+}
