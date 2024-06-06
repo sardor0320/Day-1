@@ -1,0 +1,66 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-center;
+    padding-left: 200px;
+    flex-wrap: wrap;
+    gap: 400px;
+    .contact__img {
+        h1 {
+            font-size: 2.5rem;
+        }
+        width: 350px;
+        height: 300px;
+    }
+    .contact__inp   {
+        width: 400px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .contact__inp--type{
+        display: block;
+    }
+    .contact__inp .first{
+        width: 400px;
+        flex-wrap: wrap;
+        display: flex;
+        height: max-content;
+        justify-content: space-between;
+        // gap: 20px;
+        input {
+            padding-left: 20px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgba($color: #c5c2c2, $alpha: .2);
+        }
+    }
+    .second {
+        textarea{
+            border: none;
+            border-radius: 10px;
+            background-color: rgba($color: #c5c2c2, $alpha: .2);
+        }
+    }
+    button {
+        padding: 8px 30px;
+        background-color: #00ADB5;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+}
+
+::placeholder {
+    color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
