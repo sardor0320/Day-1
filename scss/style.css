@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: end;
   gap: 50px;
-  margin-top: -80px;
   transform: translatex(-100px);
 }
 
@@ -132,8 +131,8 @@ body {
 .works .cards {
   display: flex;
   justify-content: space-between;
-  width: 1300px;
   flex-wrap: wrap;
+  gap: 130px;
 }
 .works .cards .card {
   flex-wrap: wrap;
@@ -147,6 +146,11 @@ body {
 }
 .works .cards .card img {
   width: 80%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .contact {
@@ -218,4 +222,30 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.contact__left {
+  width: 80%;
+  height: 350px;
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact__wrapp {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+}
+
+.contact__logo__footer {
+  display: flex;
+  justify-content: center;
+}
+.contact__logo__footer .contact__logo__footer__logo {
+  display: flex !important;
+  gap: 40px;
+  margin-left: 470px;
+  margin-top: -680px;
 }/*# sourceMappingURL=style.css.map */

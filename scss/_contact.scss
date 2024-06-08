@@ -64,3 +64,31 @@
 ::-webkit-scrollbar {
     display: none;
 }
+.contact__left{
+    width: 80%;
+    height: 350px;
+    background-color: #222831;
+    // justify-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+// .contact__logo{
+//     display: flex;
+// }
+.contact__wrapp{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+.contact__logo__footer{
+    display: flex;
+    justify-content: center;
+    .contact__logo__footer__logo{
+        display: flex !important;
+        gap: 40px;
+        margin-left: 470px;
+        margin-top: -680px;
+    }
+}
